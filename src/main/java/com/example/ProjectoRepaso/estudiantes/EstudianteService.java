@@ -14,10 +14,23 @@ public class EstudianteService {
     }
 
     public Estudiante guardarEstudiante(Estudiante estudiante) {
+
+        if (estudianteRepository.existsById(estudiante.getId())) {
+            throw new RuntimeException("Ya existe un estudiante con ese ID");
+        }
+
         return estudianteRepository.save(estudiante);
     }
 
     public List<Estudiante> guardarEstudiantes(List<Estudiante> estudiantes) {
+
+        boolean existeIdDuplicado = estudiantes.stream()
+                .anyMatch(est -> estudianteRepository.existsById(est.getId()));
+
+        if (existeIdDuplicado) {
+            return null;
+        }
+
         return estudianteRepository.saveAll(estudiantes);
     }
 
