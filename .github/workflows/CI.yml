@@ -21,7 +21,7 @@ jobs:
           java-version: '21'
 
       - name: Build con Maven
-        run: mvn clean verify
+        run: mvn clean verify -Dspring.profiles.active=test
 
   release:
     if: github.ref == 'refs/heads/main'
