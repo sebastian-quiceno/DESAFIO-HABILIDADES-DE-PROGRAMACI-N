@@ -9,6 +9,7 @@ Este proyecto es una aplicación backend desarrollada con **Spring Boot** como p
 ### Requisitos previos
 - Java JDK 21
 - Maven
+- PostgreSQL
 - Git
 
 ---
