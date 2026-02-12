@@ -13,7 +13,7 @@ Este proyecto es una aplicación backend desarrollada con **Spring Boot** como p
 
 ---
 
-### ▶️ Ejecución en entorno local
+### Ejecución en entorno local
 
 1. Clonar el repositorio:
 ```bash
