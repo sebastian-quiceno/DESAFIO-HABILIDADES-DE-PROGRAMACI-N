@@ -38,7 +38,7 @@ La aplicación se levantará por defecto en: **http://localhost:8080**
 
 ---
 
-#Importante
+# Importante
 
 Para el entorno de pruebas y CI se utiliza la base de datos H2 en memoria, por lo que no es necesario levantar Docker ni una base de datos externa.
 
