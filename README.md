@@ -17,7 +17,7 @@ Este proyecto es una aplicación backend desarrollada con **Spring Boot** como p
 
 1. Clonar el repositorio:
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone https://github.com/sebastian-quiceno/DESAFIO-HABILIDADES-DE-PROGRAMACI-N.git
 cd ProjectoRepaso
 ```
 2. Conexion con la base de datos:
